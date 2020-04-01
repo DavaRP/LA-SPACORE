@@ -4,6 +4,7 @@ function page (path) {
 
 export default [
   { path: '/', name: 'welcome', component: page('welcome.vue') },
+  { path: '/admin', name: 'dashboard', component: page('dashboard.vue') },
 
   { path: '/login', name: 'login', component: page('auth/login.vue') },
   { path: '/register', name: 'register', component: page('auth/register.vue') },
@@ -20,6 +21,30 @@ export default [
       { path: 'profile', name: 'settings.profile', component: page('settings/profile.vue') },
       { path: 'password', name: 'settings.password', component: page('settings/password.vue') }
     ] },
-
-  { path: '*', component: page('errors/404.vue') }
+    {
+      path: '/post',
+      name: 'post-index',
+      component: page('admin/posts/index'),
+      children: [
+        {
+          path: '/post/create',
+          name: 'post-create',
+          component: page('admin/posts/index'),
+        },
+      ]
+    },
+    {
+      path: '/album',
+      name: 'album-index',
+      component: page('admin/albums/index'),
+      children : [
+        {
+          path: '/album/create',
+          name: 'album-create',
+          component: page('admin/albums/index'),
+        }
+      ]
+    },
+  { path: '*', component: page('errors/404.vue') },
+  
 ]

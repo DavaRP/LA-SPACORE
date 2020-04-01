@@ -83,6 +83,7 @@ class ComposerStaticInitc62f000a042b7b6fe278247dfc0653a5
             'Symfony\\Component\\ErrorHandler\\' => 31,
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
+            'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
         ),
         'R' => 
         array (
@@ -173,6 +174,7 @@ class ComposerStaticInitc62f000a042b7b6fe278247dfc0653a5
         'B' => 
         array (
             'BeyondCode\\DumpServer\\' => 22,
+            'Berkayk\\OneSignal\\' => 18,
         ),
         'A' => 
         array (
@@ -311,6 +313,10 @@ class ComposerStaticInitc62f000a042b7b6fe278247dfc0653a5
         'Symfony\\Component\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
+        ),
+        'Symfony\\Bridge\\PsrHttpMessage\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/psr-http-message-bridge',
         ),
         'Ramsey\\Uuid\\' => 
         array (
@@ -504,6 +510,10 @@ class ComposerStaticInitc62f000a042b7b6fe278247dfc0653a5
         array (
             0 => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/src',
         ),
+        'Berkayk\\OneSignal\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/berkayk/onesignal-laravel/src',
+        ),
         'Asm89\\Stack\\' => 
         array (
             0 => __DIR__ . '/..' . '/asm89/stack-cors/src/Asm89/Stack',
@@ -569,6 +579,9 @@ class ComposerStaticInitc62f000a042b7b6fe278247dfc0653a5
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
         'Asm89\\Stack\\Cors' => __DIR__ . '/..' . '/asm89/stack-cors/src/Asm89/Stack/Cors.php',
         'Asm89\\Stack\\CorsService' => __DIR__ . '/..' . '/asm89/stack-cors/src/Asm89/Stack/CorsService.php',
+        'Berkayk\\OneSignal\\OneSignalClient' => __DIR__ . '/..' . '/berkayk/onesignal-laravel/src/OneSignalClient.php',
+        'Berkayk\\OneSignal\\OneSignalFacade' => __DIR__ . '/..' . '/berkayk/onesignal-laravel/src/OneSignalFacade.php',
+        'Berkayk\\OneSignal\\OneSignalServiceProvider' => __DIR__ . '/..' . '/berkayk/onesignal-laravel/src/OneSignalServiceProvider.php',
         'BeyondCode\\DumpServer\\DumpServerCommand' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/src/DumpServerCommand.php',
         'BeyondCode\\DumpServer\\DumpServerServiceProvider' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/src/DumpServerServiceProvider.php',
         'BeyondCode\\DumpServer\\Dumper' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/src/Dumper.php',
@@ -4452,6 +4465,12 @@ class ComposerStaticInitc62f000a042b7b6fe278247dfc0653a5
         'SebastianBergmann\\Type\\UnknownType' => __DIR__ . '/..' . '/sebastian/type/src/UnknownType.php',
         'SebastianBergmann\\Type\\VoidType' => __DIR__ . '/..' . '/sebastian/type/src/VoidType.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
+        'Symfony\\Bridge\\PsrHttpMessage\\Factory\\DiactorosFactory' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Factory/DiactorosFactory.php',
+        'Symfony\\Bridge\\PsrHttpMessage\\Factory\\HttpFoundationFactory' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Factory/HttpFoundationFactory.php',
+        'Symfony\\Bridge\\PsrHttpMessage\\Factory\\PsrHttpFactory' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Factory/PsrHttpFactory.php',
+        'Symfony\\Bridge\\PsrHttpMessage\\Factory\\UploadedFile' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Factory/UploadedFile.php',
+        'Symfony\\Bridge\\PsrHttpMessage\\HttpFoundationFactoryInterface' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/HttpFoundationFactoryInterface.php',
+        'Symfony\\Bridge\\PsrHttpMessage\\HttpMessageFactoryInterface' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/HttpMessageFactoryInterface.php',
         'Symfony\\Component\\Console\\Application' => __DIR__ . '/..' . '/symfony/console/Application.php',
         'Symfony\\Component\\Console\\CommandLoader\\CommandLoaderInterface' => __DIR__ . '/..' . '/symfony/console/CommandLoader/CommandLoaderInterface.php',
         'Symfony\\Component\\Console\\CommandLoader\\ContainerCommandLoader' => __DIR__ . '/..' . '/symfony/console/CommandLoader/ContainerCommandLoader.php',
